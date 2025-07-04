@@ -5,10 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
 		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style/style.css') }}">
+		<title>buch finder</title>
 	</head>
 	<body>
-<<<<<<< HEAD
-		<h1>welcome to buch finder</h1>
+		<div id="project-title">	
+			<h1>📚 welcome to buch finder</h1>
+		</div>
 		<form action="/" method="POST">
 			<label for="book-title">Book's Title</label>
 			<input type="text" id="book-title" name="book-title">
@@ -16,10 +19,12 @@
 			<label for="book-author">Book's author name</label>
 			<input type="text" id="book-author" name="book-author">
 			<br>
-			<input type="submit" name="search-book" value="Search Book">
+			<input type="submit" name="search-book" value="Search Book 🔍">
 		</form>
-=======
-		<h1>welcome to buch finder's index</h1>	
->>>>>>> 2d077b513ed70c4283e9295240fea592b83a36eb
+		<p id="about">
+			buch finder is an alternative front-end for the libgen website, at it's core, i've created it
+			help my mom finding books for her course. The whole application was built under Flask framework and
+			Python language.<br> Feel free to report any bugs or suggestions
+		</p>		
 	</body>
 </html>

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+}
+
+#project-title{
+	padding: 10vw;
+	text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	width: 50%;
+	height: 10rem;
+	margin: auto;
+	padding: 10px;
+}
+
+form > label{
+	font-weight: bold;
+	padding: 5px;
+	margin: 10px;
+}
+
+form > input[type=text]{
+	border: none;
+	border-bottom: 2px solid #069;
+	outline: none;
+}
+
+form > input[type=submit]{
+	margin: 1.5rem;
+	padding: 10px;
+	border: 3px solid #069;
+	border-radius: 20px;
+	font-size: 1rem;
+	background-color: transparent;
+}
+
+form > input[type=submit]:hover{
+	background-color: #069;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	transition: ease .3s;
+}
+
+#about{
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
